@@ -33,7 +33,7 @@ names = [
 ]
 emails_ext = ['@gmail.com','@yahoo.com','@outlook.com', '@hotmail.com','@comast.net']
 last_names = [
-  'King',
+ 'King',
  'Thompson',
  'Lopez',
  'Brown',
@@ -145,8 +145,6 @@ def init_driver():
   options.add_experimental_option("useAutomationExtension", False)
   options.add_experimental_option("excludeSwitches", ["enable-automation"])
   options.add_argument("--disable-blink-features=AutomationControlled")
-
-    # Enable verbose logging for troubleshooting (Optional)
   options.add_argument("--verbose")
   options.add_argument("--log-level=0")
   
